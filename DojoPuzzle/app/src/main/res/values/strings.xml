@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dojo Puzzle</string>
+    <string name="hint">Digite o número para descobrir se ele é feliz</string>
+    <string name="find">Descobrir</string>
+</resources>
