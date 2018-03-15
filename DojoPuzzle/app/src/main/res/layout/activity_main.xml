@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.com.dojo.cfgdemelo.dojopuzzle.MainActivity">
+    tools:context="br.com.dojo.cfgdemelo.dojopuzzle.view.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,6 +27,14 @@
             android:layout_height="200dp"
             android:src="@drawable/thinking"
             android:id="@+id/imgStatus"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:id="@+id/status"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

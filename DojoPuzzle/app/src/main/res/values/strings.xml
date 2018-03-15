@@ -2,4 +2,7 @@
     <string name="app_name">Dojo Puzzle</string>
     <string name="hint">Digite o número para descobrir se ele é feliz</string>
     <string name="find">Descobrir</string>
+    <string name="valid">Digite um valor válido</string>
+    <string name="happy">Número Feliz</string>
+    <string name="sad">Número Triste</string>
 </resources>
