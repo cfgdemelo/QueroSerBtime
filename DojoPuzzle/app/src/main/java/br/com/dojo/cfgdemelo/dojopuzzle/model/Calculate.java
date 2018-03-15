@@ -35,8 +35,6 @@ public class Calculate {
             String numberString = numberLength.toString().substring(i,i+1);
             actualNumber = Integer.parseInt(numberString);
             result += actualNumber * actualNumber;
-            Log.d("result"," " + result);
-            Log.d("actualNumber"," " + actualNumber);
         }
 
         return result;
