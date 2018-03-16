@@ -21,8 +21,8 @@ class MainActivity : AppCompatActivity() {
 
         btnFind.setOnClickListener {
             val numberString: String = editText.text.toString()
-            if (numberString.length > 3 || numberString.contains(",") || numberString.contains(".")) {
-                Toast.makeText(this,"", Toast.LENGTH_SHORT).show()
+            if (numberString.length > 3 || numberString.contains(",") || numberString.contains(".") || numberString.isNullOrBlank()) {
+                Toast.makeText(this,R.string.valid, Toast.LENGTH_SHORT).show()
             } else {
                 val number: Int = numberString.toInt()
                 presenter.onButtonPressed(number)
